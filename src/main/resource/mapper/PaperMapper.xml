@@ -20,6 +20,7 @@
 
     </resultMap>
 
+
     <insert id="addPaper" parameterType="Paper">
 
 INSERT INTO paper(paper_id,name,number,detail) VALUE (#{paperId},#{paperName}, #{paperNum}, #{paperDetail})
